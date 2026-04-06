@@ -28,11 +28,11 @@ chmod +x mqtt_start_broker.sh ./start_broker.sh
 3️⃣ Test MQTT Communication
 Open two terminals:
 Terminal 1:
-chmod +x test_sub.sh
-./test_sub.sh
+chmod +x mqtt_sub.sh
+./mqtt_sub.sh
 Terminal 2:
-chmod +x test_pub.sh
-./test_pub.sh
+chmod +x mqtt_pub.sh
+./mqtt_pub.sh
 
 4️⃣ Setup ngrok
 chmod +x ngrok_setup.sh
